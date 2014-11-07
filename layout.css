@@ -116,3 +116,61 @@ td,th{
 	background-image: -webkit-linear-gradient( 90deg, rgb(236, 234, 235) 0%, rgb(  247, 245, 246) 100%);
 	background-image: -ms-linear-gradient( 90deg, rgb(236, 234, 235) 0%, rgb( 247, 245, 246) 100%);
 }
+
+/* Visualizar 
+=======================================*/
+
+
+#visualizar {
+	position: relative;
+	height: 100%; 
+	min-height: 400px; 	
+	margin-top: 20px;
+	background-color:  #f6f4f5;
+	border: 1px solid #d8d6d7;
+	color:  #555555;
+}
+
+#visualizar #header  {
+	display: block;	
+	border-bottom: 1px solid #d8d6d7;
+	min-height: 40px; 		
+	width: 100%;	
+	margin: 0px !important;	
+}
+
+#visualizar #header a {
+color: #0071bd;
+}
+
+#visualizar #header h4 {
+	margin-top: 15px;
+	margin-left: 25px;
+}
+#visualizar #header p{	
+	margin-left: 45px; 
+	margin-bottom: 15px;
+}
+
+#lista {  
+	position: relative;	
+	height: 100%;	
+	border-right: 1px solid #d8d6d7;
+	margin: 0px !important;
+}
+#lista li{ 
+	display: block;	
+	border-bottom: 1px solid #d8d6d7;
+	min-height: 30px;
+	width: 100%;	
+}
+
+#lista li i {
+	margin: 10px;
+	margin-left: 15px;
+}
+
+#pdf{
+	margin: 10px;
+	margin-left: 20px;	
+}
