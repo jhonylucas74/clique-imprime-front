@@ -65,7 +65,7 @@ nav {
 
 /* Fonts
 ==========================================*/
-h1,h2,h3,h4,h5,h6,p,a,ul {
+h1,h2,h3,h4,h5,h6,p,a,ul,table,tr,td {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -82,4 +82,35 @@ h1,h2,h3,h4,h5,h6,p,a,ul {
 =========================================*/
 a {
 	text-decoration: none;
+}
+
+/* Caixa de entrada
+=========================================*/
+
+table {	
+	width: 100%;	
+	margin-top: 20px;
+	background-color:  #f6f4f5;
+	border: 1px solid #d8d6d7;
+	color:  #555555;
+
+}
+
+td a {
+	margin-left: 10px ;	
+	color: #555555;
+}
+
+td,th{	
+	border-bottom: 1px solid #d8d6d7;
+	height: 30px; 
+}
+
+.topo {
+	border-width:0; 
+	height: 30px; 
+	width: 5%;
+	background-image: -moz-linear-gradient( 90deg, rgb(236, 234, 235) 0%, rgb( 247, 245, 246) 100%);
+	background-image: -webkit-linear-gradient( 90deg, rgb(236, 234, 235) 0%, rgb(  247, 245, 246) 100%);
+	background-image: -ms-linear-gradient( 90deg, rgb(236, 234, 235) 0%, rgb( 247, 245, 246) 100%);
 }
