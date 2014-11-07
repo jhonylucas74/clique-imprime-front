@@ -93,6 +93,8 @@ table {
 	background-color:  #f6f4f5;
 	border: 1px solid #d8d6d7;
 	color:  #555555;
+	padding: 0;
+	border-spacing: 0;
 
 }
 
