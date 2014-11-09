@@ -73,7 +73,7 @@ nav {
 
 /* Fonts
 ==========================================*/
-h1,h2,h3,h4,h5,h6,p,a,ul,table,tr,td {
+h1,h2,h3,h4,h5,h6,p,a,ul,table,tr,td,input,button,select {
 	font-family: 'Open Sans', sans-serif;
 }
 
@@ -89,6 +89,25 @@ hr { border: solid #d8d6d7; border-width: 1px 0 0; clear: both; margin: 5px 0 30
 
 /* Forms
 ==========================================*/
+input,button, select {
+	background-color: #faf8f9;
+	border: 1px solid #d8d6d7;
+	min-height: 25px;	
+
+}
+
+.button{
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block !important;
+	font-size: 0.9em;
+	margin-left: 10px;
+	background-color: #faf8f9;
+	border: 1px solid #d8d6d7;
+	min-height: 25px;	
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 25px;
+}
 
 /* Box Styles
 ==========================================*/
@@ -189,7 +208,7 @@ color: #0071bd;
 	margin-left: 20px;	
 }
 
-/* Novo Pedido
+/* Pedido sucesso
 =======================================*/
 
 #pedido-sucesso{
@@ -243,5 +262,255 @@ color: #0071bd;
 #mapa {
 	margin-top: 20px;
 	margin-bottom: 20px;
+
+}
+
+/* Novo pedido
+=======================================*/
+
+/* NOVO PEDIDO HEADER */
+#novo-pedido{
+	min-height: 300px; 	
+	margin-top: 20px;
+	background-color:  #f6f4f5;
+	border: 1px solid #d8d6d7;
+	color:  #555555;
+}
+#novo-pedido #header {
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 25px;
+	font-size: 18px; 
+}
+
+#novo-pedido #header  i {
+		margin-right: 5px;
+}
+
+#novo-pedido hr {
+	margin-bottom: 20px; 
+}
+
+/*
+  TITULO ROTULO E INPUT
+--------------------------------------------------------------*/
+
+#novo-pedido #titulo-rotulo{
+
+	margin-bottom: 5px;
+	margin-left: 55px;
+}
+
+#empresa{
+	min-height: 100px; 	
+	background-color:  #f6f4f5;
+	border: 1px solid #d8d6d7;
+	border-bottom: 2px solid #d8d6d7;
+	color:  #555555;
+	margin-bottom: 5px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 30px;
+}
+#empresa select{
+	margin-left: 10px; 
+	height: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+#empresa div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#cabecalho-cidade{
+	margin-left: 0px;
+}
+
+
+#cabecalho-cidade select{
+	padding-right: 50px;
+
+}
+
+#cabecalho-empresa{
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+
+#cabecalho-empresa select{
+	padding-right: 122px;
+
+}
+#circulo-preto{
+	margin-top: 10px;
+	border-radius: 5px;
+}
+
+
+#circulo-azul{
+	margin-top: 10px;
+	border-radius: 5px;
+
+}
+#circulo-azul i{
+	color: #0071bd;
+
+}
+
+/*
+	OPCAO DE ARQUIVO
+-------------------------------------------------*/
+#opcao-arquivo{
+	min-height: 100px; 	
+	margin-top: 5px;
+	background-color:  #f6f4f5;
+	color:  #555555;
+	margin-bottom: 30px;
+	margin-right: 40px;
+	margin-left: 40px;
+
+}
+
+#buttpn-upload{
+	height: 29px;
+	width: 90%;
+}
+
+
+#opcao-arquivo div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#opcao-arquivo button {
+	display: block;
+	margin-bottom: 15px;
+	margin-top: 15px;
+	margin-left: 10px;
+	font-size: 16px; 
+}
+
+#pagina-colorida{
+	margin-top: 0px !important;	
+	font-size: 16px; 
+	width: 95%;
+	height: 29px;
+
+}
+
+
+#da-pagina {
+	display: inline-block !important;
+	height: 29px;
+}
+
+
+#opcao-arquivo p{
+	font-family: 'Open Sans', sans-serif;
+	display: inline-block !important;
+
+	margin-left: 10px;
+	background-color: #faf8f9;
+	border: 1px solid #d8d6d7;
+	min-height: 27px;	
+	padding-left: 5px;
+	padding-right: 5px;
+	line-height: 27px;
+
+}
+
+
+#opcao-arquivo input {
+	display: inline-block;
+}
+
+#money p, #enviar{
+	display: inline-block;
+}
+
+#titulo-input{
+	margin-bottom: 15px;
+	margin-left: 55px;
+	width: 500px;
+}
+
+#estado-rotulo{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#cidade-rotulo {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#empresa-rotulo{
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+#input-copias{
+	margin-right: 0px;
+	width: 25px;
+	text-align: center;
+}
+
+#input-da{
+	margin-right: 0px; 
+	width: 25px;
+	text-align: center;
+}
+
+#ate{
+	margin-right: 0px;
+	width: 25px;
+	margin-left: 0px !important; 
+	margin-right: 0px;
+}
+
+#input-ate{
+	margin-right: 0px; 
+	width: 25px;
+	text-align: center;
+}
+
+#cinza{
+	width: 100%;
+	text-align: left;
+	height: 29px;
+}
+
+#check-todas-as-paginas{
+	width: 100%;
+	text-align: left;
+	height: 29px;
+}
+
+
+/*
+	PAGAMENTO
+-------------------------------------------------*/
+
+#money{
+	margin-left: 50px;
+	margin-right: 15px;
+	margin-bottom: 25px;
+}
+
+#enviar{
+	text-align: center;
+	height: 29px;
+	width: 95px;
+	background-color: #0071bd;
+	color: #ffffff;
+	border: 1px solid #004084;
+}
+
+#money-total{
+	text-align: center;
+	height: 26px;
+	width: 95px;
 
 }

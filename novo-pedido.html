@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt"> 
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Clique Imprime</title>
+	<meta name="description" content="">
+	<meta name="author" content="Jhony Lucas C. da S.">
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	
+  <!-- CSS
+  ================================================== -->	
+
+  <link rel="stylesheet" href="1140.css">
+  <link rel="stylesheet" href="layout.css">
+  <script type="text/javascript" src="jquery.js"></script>
+
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">   
+
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+  <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body>
+<header>
+	<div class="container12">
+		<div class="column12">
+			<img src="images/logo.png">
+			<h1>Clique Imprime</h1>
+			<div class="go-right">
+				<!-- <a href=""><i class="fa fa-sign-in fa-lg"></i> Login</a> -->
+				<a href=""><i class="fa fa-credit-card"></i> R$ 23.00 </a>
+				<i class="fa fa-cog fa-lg"></i> 
+				<i class="fa fa-print fa-lg"></i> 
+				<i class="fa fa-sign-out fa-lg"></i>
+			</div>
+		</div>
+	</div>
+</header>
+<nav>
+	<div class="container12">
+		<div class="column12">
+			<ul>
+				<li> <a href="index.html"> Dashboard</a></li>
+				<li> <a href=""> Novo pedido</a></li>
+				<li> <a href=""> Créditos</a></li>
+				<li> <a href=""> Cidades</a></li>
+			</ul>							
+		</div>
+	</div>		
+</nav>
+
+<!-- Novo Pedido
+===================================================================================-->
+
+<div class="container12" >
+	<div class="column12" id="novo-pedido">		
+
+		<p id="header"> <i class="fa fa-paper-plane-o"></i> Novo pedido de impressão</p>
+		<hr>
+		<p id ="titulo-rotulo">Titulo</p>
+		<input id="titulo-input" type="text" name="teste" > 
+
+		<div id="empresa">
+			<div>
+				<p id="estado-rotulo">Estado</p> 
+				<select name="select">
+		  			<option value="value1">Ce</option> 
+		  			<option value="value2" selected>Rn</option>
+		  			<option value="value3">Pb</option>
+		  		</select>
+		  	</div>
+
+		  	<div id="cabecalho-cidade">		  	
+		  		<p id="cidade-rotulo">Cidade</p> 
+				<select name="select">
+		  			<option value="value1">Ce</option> 
+		  			<option value="value2" selected>Angicos</option>
+		  			<option value="value3">Pb</option>
+		  		</select>		  		
+		  	</div>
+
+		  	<div id ="cabecalho-empresa">		  	
+		  		<p id="empresa-rotulo">Empresa</p> 
+				<select name="select">
+		  			<option value="value1">Ce</option> 
+		  			<option value="value2" selected>Empresa fulano de Tal & Cia</option>
+		  			<option value="value3">Pb</option>
+		  		</select><br>
+		  		<p class="button" id="circulo-preto"> <i class="fa  fa-circle"></i> R$ 0.10 </p>
+				<p class="button" id="circulo-azul"> <i class="fa  fa-circle"></i> R$ 0.30 </p>	  		
+		  	</div>
+							
+		</div>
+		
+		<div id="opcao-arquivo">
+			<div>
+				<button id="buttpn-upload"> <i class="fa  fa-upload"></i> Upload</button>
+				<p> Cópias</p> <input id="input-copias" type="numeric" value="1" />
+			</div>	
+
+			<div>
+				<button id="check-todas-as-paginas"> <i class="fa  fa-check-square"></i> Todas as paginas</button>
+				<button id="cinza"> <i class="fa  fa-check-square"></i>  Tons de cinza</button>
+
+			</div>
+			<div >
+				<button id ="da-pagina"> <i class="fa  fa-square-o "></i> Da</button> 
+				<input id="input-da"type="numeric" value="1" />
+				<p id="ate">até</p>
+				<input id="input-ate" type="numeric" value="1" />
+				<button id ="pagina-colorida"> <i class="fa  fa-square-o "></i> Colorido</button>
+			</div>
+		</div>
+		<div id="money">
+			<hr>
+			<p class="button" id="money-total"> <i class="fa fa-money"></i> R$ 0.40</p>
+			<button id="enviar">Enviar</button>
+		</div>
+	</div>
+</div>
+
+
+</body>
+</html>
