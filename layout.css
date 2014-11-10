@@ -552,3 +552,22 @@ color: #0071bd;
 	width: 95px;
 
 }
+
+/*
+	NOTIFICAÇÃO
+-------------------------------------------------*/
+
+#notificacao a {
+	color:#0071bd;
+	margin: 0;
+
+}
+
+#notificacao th{
+	text-align: left;
+	padding-left: 25px; 
+}
+
+#notificacao td{
+	padding-left: 25px;
+}
