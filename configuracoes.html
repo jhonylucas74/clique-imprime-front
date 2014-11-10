@@ -8,7 +8,6 @@
 	<title>Clique Imprime</title>
 	<meta name="description" content="">
 	<meta name="author" content="Jhony Lucas C. da S.">
-	<meta name="author" content="Samuel G. Lopes">
 
 	<!-- Mobile Specific Metas
   ================================================== -->
@@ -36,11 +35,10 @@
 			<h1>Clique Imprime</h1>
 			<div class="go-right">
 				<!-- <a href=""><i class="fa fa-sign-in fa-lg"></i> Login</a> -->
-				<a class="tooltips" href="#"> <i class="fa fa-credit-card"></i> <span>Saldo</span></a>
-				<a href=""> R$ 23.00 </a>
-				<a class="tooltips" href="#"> <i class="fa fa-cog fa-lg"></i> <span> Configuraçoes </span></a>
-				<a class="tooltips" href="#"> <i class="fa fa-inbox"></i> <span> Notificações </span></a>
-				<a class="tooltips" href="#"> <i class="fa fa-sign-out fa-lg"></i> <span> Sair </span></a>
+				<a href=""><i class="fa fa-credit-card"></i> R$ 23.00 </a>
+				<i class="fa fa-cog fa-lg"></i> 
+				<i class="fa fa-print fa-lg"></i> 
+				<i class="fa fa-sign-out fa-lg"></i>
 			</div>
 		</div>
 	</div>
@@ -50,42 +48,51 @@
 		<div class="column12">
 			<ul>
 				<li> <a href="index.html"> Dashboard</a></li>
-				<li>Novo pedido</li>
-				<li>Créditos</li>
-				<li>Cidades</li>
-			</ul>
+				<li> <a href=""> Novo pedido</a></li>
+				<li> <a href=""> Créditos</a></li>
+				<li> <a href=""> Cidades</a></li>
+			</ul>							
 		</div>
 	</div>		
 </nav>
 
-<!-- Caixa de entrada de notificações
+<!-- Novo Pedido
 ===================================================================================-->
 
-<div class="container12">
-	<div class="column12">
+<div class="container12" >
+	<div class="column12" id="configuracoes">
+
+		<p id="header"> <i class="fa fa-cog"></i> Configurações</p>
+		<hr>
+		<p>Nome</p>
+		<p class="button"id="check-todas-as-paginas"> <i class="fa  fa-lock"></i> Todas as paginas</p>
+		<button> <i class="fa  fa-edit"></i> </button>
+
+		<p>Estado</p>			
+		<p class="button"id="check-todas-as-paginas"> <i class="fa  fa-lock"></i> Todas as paginas</p>
+		<button> <i class="fa  fa-edit"></i> </button>	
+
+		<p>Cidade</p>			
+		<p class="button"id="check-todas-as-paginas"> <i class="fa  fa-lock"></i> Todas as paginas</p>
+		<button> <i class="fa  fa-edit"></i> </button>		
+
+		<p>Telefone 1</p>			
+		<p class="button"id="check-todas-as-paginas"> <i class="fa  fa-lock"></i> (84) 9887-8787 </p>
+		<button> <i class="fa  fa-edit"></i> </button>	
 
 
-	<table id ="notificacao">
-		<tr class="topo"><th colspan="5"> Notificações </th></tr>
-			<td>  <i class="fa  fa-exclamation-circle"></i> Seu <a herf="">documento</a> acaba de ser impresso por <a herf=""> papel e amigos do Norte. </a></a></td>
-			<td> <i class="fa  fa-clock-o"></i> 09 de outubro às 13h00 </td>
-		</tr>
-		<tr>
-			<td> <i class="fa  fa-exclamation-circle"></i> Seu<a herf=""> documento </a> acaba de ser impresso por <a herf=""> papel e amigos do Norte. </a></a></td>
-			<td> <i class="fa  fa-clock-o"></i> 09 de outubro às 13h00 </td>
-		</tr>
-		<tr>
-			<td> <i class="fa  fa-exclamation-circle"></i> Seu<a herf=""> documento </a> acaba de ser impresso por <a herf=""> papel e amigos do Norte. </a></a></td>
-			<td> <i class="fa  fa-clock-o"></i> 09 de outubro às 13h00 </td>
-		</tr>
-		<tr>
-			<td> <i class="fa  fa-exclamation-circle"></i> Pagamento confirmado </a></td>
-			<td> <i class="fa  fa-clock-o"></i> 09 de outubro às 13h00 </td>
-		</tr>
-	</table>
+		<p>Telefone 2</p>			
+		<p class="button"id="check-todas-as-paginas"> <i class="fa  fa-lock"></i> (84) 9887-8787 </p>
+		<button> <i class="fa  fa-edit"></i> </button>		
 
+		<p> fulano.oliveira@gmail.com</p>	
+		<p class="button-black"> <i class="fa fa-key"></i> Editar senha</p>
+		<hr>
+		<p> <i class=" fa fa-exclamation-triangle"></i> Tenha cuidado ao cancelar a sua conta </p>
+		<p class="button-x"> <i class=" fa fa-close"></i> Cancelar</p>
 	</div>
 </div>
+
 
 </body>
 </html>
